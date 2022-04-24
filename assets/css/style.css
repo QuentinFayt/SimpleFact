@@ -1,0 +1,49 @@
+html * {
+    box-sizing : border-box;
+    margin     : 0;
+}
+
+body {
+    background-color : #74c9de;
+}
+
+h1 {
+    text-align : center;
+    margin     : 1em;
+}
+
+.animals {
+    display : block;
+    margin  : 0 auto;
+}
+
+#bubble {
+    display          : none;
+    position         : absolute;
+    top              : 100px;
+    left             : 664px;
+    width            : 789px;
+    height           : 466px;
+    background-image : url("../images/bubble.png");
+    padding          : 3em 2.5em 0 7em;
+}
+
+#bubble p {
+    display    : block;
+    height     : 240px;
+    text-align : center;
+    font-size  : x-large;
+    margin-top : 50px;
+}
+
+#cat {
+    display : none;
+}
+
+#dog {
+    display : none;
+}
+
+#horse {
+    display : none;
+}
